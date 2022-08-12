@@ -1,0 +1,158 @@
+
+*{
+@import "https://fonts.googleapis.com/css?family=Lato:400,700"
+}
+
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+
+body {
+     
+    background-position: center;
+    background-size: cover;
+    background-color: #111111;   
+    font-family: arial;   
+   }
+
+.hero {
+    
+    width: 100%;
+    height: 10vh;
+    background: crimson;
+}
+
+
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 40px;
+    padding-left: 0px;
+    padding-right: 20px;
+    
+
+    
+    
+    
+}
+.logo {
+width: 1200px;
+color: #eee;
+font-size: 30px;
+font-family: Arial bold;
+margin: 0px;
+}
+
+.logo span{
+    color: #000; 
+}
+
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+    
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+
+nav ul li a:hover{
+    color: black;
+}
+ 
+.content img {
+    width: 38%;
+    height: 80%;
+     position: absolute;
+     right: 100px;
+     background-blend-mode: black; 
+     border: 5px solid black;
+     display: block;
+    bottom: 0;
+    }  
+   
+ .content h2{  
+  font-size: 30px;
+  color: #136207;
+  margin-bottom: 2px;
+  font-family: Arial bold;
+  margin-top: 10px;
+ }
+
+
+.content .par{
+    
+    font-size: 20px;
+    padding-left: 0px;
+    margin-top: 1px;
+    letter-spacing: 1px;
+    color: #eee;
+  
+}
+
+
+.content ul li{
+    
+    font-size: 20px;
+    padding-left: 0px;
+    margin-top: 0;
+    letter-spacing: 1px;
+    color: #eee;  
+    }      
+    .content li {
+        content: "\27A4";
+        color: #136207; 
+        margin-right: 20px;     
+     }
+
+.content p{
+  
+        font-size: 20px;
+        padding-left: 0px;
+        margin-top: 0;
+        letter-spacing: 1px;
+        color: #eee;  
+    }    
+
+
+.content .cn{
+    width: 100px;
+    height: 40px;
+    background: crimson;
+    border: none;
+    margin-bottom: 50px;
+    margin-left: 0px;
+    font-size: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s ease;
+    
+}
+
+.content .cn a{
+    text-decoration: none;
+    color: #000;
+    transition: .3s ease;
+}
+
+.cn:hover{
+    background-color: #fff;
+}
+
+.content span{
+    color: #ff7200;
+    font-size: 18px
+}
+
+
+
